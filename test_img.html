@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset="utf-8" />
+  <title>Фотокарточки</title>
+  <style>
+   figure {
+    background: #5f6a72; /* Цвет фона */
+    padding: 10px; /* Поля вокруг */
+    display: block; /* Блочный элемент */
+    /*width: 1300px; /* Ширина */
+    float: left; /* Блоки выстраиваются по горизонтали */
+    margin: 0 10px 10px 0; /* Отступы */
+    text-align: center; /* Выравнивание по центру */
+   }
+   figcaption {
+    color: #ffffff; /* Цвет текста */
+   }
+  </style>
+   <style>
+          a:hover {
+            background-color: yellow;
+        }
+
+        a.active {
+         background-color: red;
+}
+    </style>
+ </head>
+   <h1> menu </h1>
+<ul>
+    <li> <a href='main.html'>  Главная страница </a> </li>
+    <li> <a href='info.html'>  Инвормационная страница с главами </a> </li>
+    <li> <a href='test_img.html' class="active"> Фото </a> </li>
+    <li> <a href="form.html"> Форма </a> </li>
+    <li> <a href='passport.html'>Паспорт </a> </li>
+    <li> <a href='table.html' >Таблица </a> </li>
+    <li> <a href='task.html'>Задача </a> </li>
+    <li> <a href='DOM.html'>Считывание из DOM</a> </li>
+    <li> <a href="https://www.hse.ru/" target="_blank"> Внешний сайт </a> </li>
+    <li> <a href="https://www.hse.ru/" target="_blank"><img src="image/hse.png" width= "20px" alt="" /></a></li>
+</ul>
+ <body>
+  <article>
+   <figure>
+    <p><img src="image/code.png" alt="" /></p>
+    <figcaption>результат программы</figcaption>
+   </figure>
+   <figure>
+    <p><img src="image/exsam.jpg" alt="" /></p>
+    <figcaption>экз по алгебре</figcaption>
+   </figure>
+   <figure>
+    <p><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSAjDQ80mUWopbjiKrAOpxJIErLkSqwmnJpdJRn5MhnKA&s=10" alt="" /></p>
+    <figcaption>мощная фотка</figcaption>
+   </figure>
+   <figure>
+    <p><a href="big_img.html" target="_blank"><img src="image/belka.jpg" width= "100px" alt="" /></p>
+    <figcaption>фото-ссылка</figcaption>
+   </figure>
+  </article>
+ </body>
+</html>

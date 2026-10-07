@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Задача</title>
+    <style>
+          a:hover {
+            background-color: yellow;
+        }
+
+        a.active {
+         background-color: red;
+}
+    </style>
+</head>
+<body>
+
+<h1> menu </h1>
+<ul>
+    <li> <a href='main.html'>  Главная страница </a> </li>
+    <li> <a href='info.html'>  Инвормационная страница с главами </a> </li>
+    <li> <a href='test_img.html'> Фото </a> </li>
+    <li> <a href="form.html"> Форма </a> </li>
+    <li> <a href='passport.html'>Паспорт </a> </li>
+    <li> <a href='table.html'>Таблица </a> </li>
+    <li> <a href='task.html'  class="active">Задача </a> </li>
+    <li> <a href='DOM.html'>Считывание из DOM</a> </li>
+    <li> <a href="https://www.hse.ru/" target="_blank"> Внешний сайт </a> </li>
+    <li> <a href="https://www.hse.ru/" target="_blank"><img src="image/hse.png" width= "20px" alt="" /></a></li>
+
+</ul>
+
+    <p name="formulation"> Можно ли из бревна, имеющего диаметр поперечного сечения D, выпилить квадратный брус шириной A?</p>
+    <form action="https://www.google.com" id="UserEnter" name="UserEnter" target="_blank">
+        <ul>
+            <li>Формулировка задачи
+                <br><textarea cols="60" rows="4" id="task" name="formulation"> Можно ли из бревна, имеющего диаметр поперечного сечения D, выпилить квадратный брус шириной A?? Если принадлежит - отправить все на сервер</textarea></li>
+            <li>D: <input id="D" name="D" type="number" value="10"></li>
+            <li>A: <input id="A" name="A" type="number" value="20"></li>
+            <li>Результат решения задачи: <input id="result" name="result&quot;" value="не определен"></li>
+            <li>действие: <input id="verify" type="button" value="Проверить"></li>
+        </ul>
+    </form>
+
+<script src="./scripts/task.js"></script>
+
+</body></html>
